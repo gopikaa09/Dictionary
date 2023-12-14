@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useRef, useState } from "react";
+import "./style.css"
 
 const Dictionary = () => {
   const [inputValue, setInputValue] = useState("");
@@ -36,7 +37,7 @@ const Dictionary = () => {
 
   return (
     <div>
-      <h1>Dictionary</h1>
+      <h1>VocabVerse</h1>
       <form>
         <input
           type="text"
